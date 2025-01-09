@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SumAlgorithmTest {
 
+    public static final int EXPECTED = 5050;
     SumAlgorithm testInstance;
 
     @Before
@@ -17,11 +18,11 @@ public class SumAlgorithmTest {
 
     @Test
     public void testIteration() {
-        assertEquals(5050, testInstance.iteration(100));
+        assertEquals(EXPECTED, testInstance.iteration(100));
     }
 
     @Test
     public void testRecursion() {
-        assertEquals(5050, testInstance.recursion(100));
+        assertEquals(EXPECTED, testInstance.recursion(100));
     }
 }

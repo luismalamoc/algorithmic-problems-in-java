@@ -1,6 +1,5 @@
 package org.luismalamoc;
 
-import java.util.concurrent.ThreadLocalRandom;
 
 public class SumAlgorithm {
 
