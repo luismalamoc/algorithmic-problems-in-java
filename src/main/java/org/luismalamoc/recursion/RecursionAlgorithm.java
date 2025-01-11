@@ -1,4 +1,4 @@
-package org.luismalamoc;
+package org.luismalamoc.recursion;
 
 public class RecursionAlgorithm {
 
