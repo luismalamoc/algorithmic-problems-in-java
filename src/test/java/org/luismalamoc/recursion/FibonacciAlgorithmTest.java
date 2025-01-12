@@ -29,4 +29,12 @@ public class FibonacciAlgorithmTest {
         assertEquals(5, testInstance.tail(5, 0, 1));
         assertEquals(55, testInstance.tail(10, 0, 1));
     }
+
+    @Test
+    public void testIteration() {
+        assertEquals(0, testInstance.iteration(0));
+        assertEquals(1, testInstance.iteration(1));
+        assertEquals(5, testInstance.iteration(5));
+        assertEquals(55, testInstance.iteration(10));
+    }
 }
